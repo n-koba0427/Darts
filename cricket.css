@@ -1,0 +1,41 @@
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background: black;
+    font-size: 50px;
+}
+
+div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    height: 15%;
+    background: none;
+}
+
+.main{
+    top:15%;
+    height: 85%;
+    background: red;
+}
+
+.main .numbers{
+    width:10%;
+    background:blue;
+}
+
+.main .numbers div{
+    position:static;
+    float:left;
+    border-bottom:1px solid white;
+    height:11%;
+}
