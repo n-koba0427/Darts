@@ -1,6 +1,4 @@
 // JavaScript source code
-var player = 1;
-
 var PS = [false, false, false, false];
 
 function PlayerSelect(e) {
@@ -66,7 +64,8 @@ function GameStart() {
     if (start) {
         for (i = 0; i < PS.length; i++) {
             if (PS[i]) {
-                player = i + 1;
+                var player = i + 1;
+                sessionStorage.setItem("player", player);
                 break;
             }
         }
