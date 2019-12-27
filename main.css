@@ -64,7 +64,7 @@ div img{
 .mode-select div div{
     position:static;
     float:left;
-    margin-bottom:5%;
+    margin-bottom:10%;
     height:25%;
     width:100%;
     font-size:70px;
@@ -82,9 +82,9 @@ div img{
 
 .start-button div{
     top:20%;
-    left:20%;
-    height:60%;
-    width:60%;
+    left:15%;
+    height:50%;
+    width:70%;
     font-size:100px;
     margin-top:auto;
     margin-bottom:auto;
