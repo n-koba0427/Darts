@@ -1,7 +1,5 @@
 // JavaScript source code
 
-var turn = 1;
-
 function SetPlayers() {
     for (i = 0; i < player; i++) {
         var checks = document.createElement("div");
