@@ -1,4 +1,5 @@
 // JavaScript source code
+var player = 1;
 
 var PS = [false, false, false, false];
 
@@ -63,6 +64,12 @@ function SBColor() {
 
 function GameStart() {
     if (start) {
+        for (i = 0; i < PS.length; i++) {
+            if (PS[i]) {
+                player = i + 1;
+                break;
+            }
+        }
         var links = ["CountUp.html","01.html","Cricket.html"];
         var link;
         for (i = 0; i < MS.length; i++) {
