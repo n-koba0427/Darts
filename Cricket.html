@@ -5,26 +5,33 @@
     <meta charset="utf-8" />
     <title>Darts/Cricket</title>
     <link rel="stylesheet" type="text/css" href="cricket.css" />
+    <script src="main.js"></script>
     <script src="cricket.js"></script>
 </head>
 <body>
-    
-    <div class="title">-- CRICKET --</div>
 
-    <div class="main">
+    <div class="title">CRICKET <a id="TITLE">(TURN:1)</a></div>
+
+    <div class="main" id="MAIN">
         <div class="numbers">
-            <div></div>
-            <div>20</div>
-            <div>19</div>
-            <div>18</div>
-            <div>17</div>
-            <div>16</div>
-            <div>15</div>
-            <div>BULL</div>
+            <div>
+                <input type="button" value="NEXT" onclick="next();" class="next" />
+            </div>
+            <div onclick="hit(0);">20</div>
+            <div onclick="hit(1);">19</div>
+            <div onclick="hit(2);">18</div>
+            <div onclick="hit(3);">17</div>
+            <div onclick="hit(4);">16</div>
+            <div onclick="hit(5);">15</div>
+            <div onclick="hit(6);">BULL</div>
             <div>SCORE</div>
         </div>
-        <div class="checks"></div>
+        
     </div>
+
+    <script>
+    SetPlayers();
+    </script>
 
 </body>
 </html>
