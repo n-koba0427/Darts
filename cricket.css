@@ -4,7 +4,7 @@ body {
     width: 100vw;
     margin: 0;
     background: black;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 div {
@@ -19,23 +19,51 @@ div {
 
 .title {
     height: 15%;
+    font-size:100px;
     background: none;
 }
 
 .main{
     top:15%;
     height: 85%;
-    background: red;
+    background: none;
 }
 
-.main .numbers{
-    width:10%;
-    background:blue;
-}
-
-.main .numbers div{
+.main div{
     position:static;
     float:left;
+    width:20%;
+}
+
+.main div div{
+    width:100%;
     border-bottom:1px solid white;
     height:11%;
+}
+
+.main .numbers .next{
+    font-size:50px;
+    color:white;
+    width:60%;
+    border:none;
+    background:red;
+    border-radius:60px;
+}
+
+.main .checks div input{
+    width:100%;
+    border:none;
+    text-align:center;
+    font-size:50px;
+    color:white;
+    background:none;
+}
+
+.main .checks .check img{
+    height:100%;
+    object-fit:contain;
+}
+
+.checks{
+    display:block;
 }
