@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Darts</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <div class="title">
+        <h1>-- DARTS --</h1>
+    </div>
+
+    <div class="player">
+        <h2>-- PLAYER --</h2>
+        <div>
+            <div onclick="PlayerSelect(0);"><img src="Materials/nums/1.png" id="0" /></div>
+            <div onclick="PlayerSelect(1);"><img src="Materials/nums/2.png" id="1" /></div>
+            <div onclick="PlayerSelect(2);"><img src="Materials/nums/3.png" id="2" /></div>
+            <div onclick="PlayerSelect(3);"><img src="Materials/nums/4.png" id="3" /></div>
+        </div>
+    </div>
+
+    <div class="mode-select">
+        <h2>-- GAME MODE --</h2>
+        <div>
+            <div id="mode0" onclick="ModeSelect(0);">COUNT-UP</div>
+            <div id="mode1" onclick="ModeSelect(1);">01</div>
+            <div id="mode2" onclick="ModeSelect(2);">CRICKET</div>
+        </div>
+    </div>
+
+    <div class="start-button">
+        <div id="STARTBUTTON" onclick="GameStart();">GAMESTART</div>
+    </div>
+
+</body>
+</html>
