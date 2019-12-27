@@ -1,4 +1,6 @@
 // JavaScript source code
+var player = sessionStorage.getItem("player");
+console.log(player);
 
 function SetPlayers() {
     for (i = 0; i < player; i++) {
